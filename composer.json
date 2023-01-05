@@ -1,0 +1,19 @@
+{
+    "name": "cento/contact",
+    "description": "first testing package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liaquat Ali",
+            "email": "liaquatali.centosquare@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cento\\Contact\\": "src/" 
+        }
+    }
+}
