@@ -15,5 +15,13 @@
         "psr-4": {
             "Cento\\Contact\\": "src/" 
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cento\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
